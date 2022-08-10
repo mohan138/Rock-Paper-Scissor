@@ -1,6 +1,6 @@
-var playerScore = 0, botScore = 0
+let playerScore = 0, botScore = 0
 
-var numberOfRounds = prompt("Number of rounds")
+let numberOfRounds = prompt("Number of rounds")
 
 function number() {
 return Math.floor(Math.random() *(3)+1)
@@ -9,7 +9,7 @@ return Math.floor(Math.random() *(3)+1)
 
 while(true){
     
-    var randomNumber = number()
+    let randomNumber = number()
     if(randomNumber == 1)
     botSelection = "rock"
     else if(randomNumber == 2)
